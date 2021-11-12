@@ -40,4 +40,7 @@ dependencies {
     //The below are need for the implementation of the tool bar
     implementation "androidx.appcompat:appcompat:${appCompatVersion}"
     implementation "com.google.android.material:material:${designSupportVersion}"
+
+    implementation "com.github.parse-community.Parse-SDK-Android:parse:2.0.5"
+
 }
