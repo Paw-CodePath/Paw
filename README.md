@@ -111,3 +111,59 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+## User stories
+- [ ]  Main Login Screen
+   - [X]  Connect to Back4App
+   - [X]  Create Test Profiles
+   - [ ]  Login Button -> Main Screen
+   - [ ]  Register Button -> Requried to Input Username and Password -> First Time Profile Set up Screen
+- [ ]  Main Screen
+   - [ ]  Main Profile Screen Shows up
+   - [ ]  Functionality of Check and X buttons
+   - [ ]  Being able to swipe left for no, right for yes.
+   - [ ]  Tapping the Profile will be able to preview the whole profile layout
+   - [ ]  *Apply this as the last step* No more Matches left screen
+- [ ]  Matches/Messaging Screen
+   - [ ]  Functionality of Filters Buttons
+   - [ ]  Previewing new matches
+   - [ ]  Recycler View of People you have been messaging with
+- [ ]  Profile Options Menu Screen
+   - [ ]  User Profile Settings Button -> User Profile Screen
+   - [ ]  Pet Profile Settings Button -> Pet Profile Screen
+   - [ ]  Previewing Profile picture, as well as pet picture
+   - [ ]  Toggle Button Functionality for Fitlering Search Criteria
+   - [ ]  *Stretch* Being able to manually search for organizations and people for adopting pets
+- [ ]  First time Profile Set up screen
+   - [ ]  Requiring For at least for:
+      - [ ]  User: Must have name, 1 picture, looking for, and you are tag.
+      - [ ]  *Pet is optional but to create a pet profile must have: * 1 picture, looking for, and you are tag.
+   - [ ]   Button being able to add more pet profiles
+- [ ]  User Profile
+   - [ ]  Button to add a picture, and replace a picture. Max 4 pictures
+   - [ ]  Description box. Max: 280 chars
+   - [ ]  Looking for tag box. tags: Petsitter/Dogwalker, Adopting pets, Other Petowners
+   - [ ]  Who are you tag box. tags: Human, Organization/Adoption Center, Other... 
+- [ ]  Pet Profile 
+   - [ ]  Button to add a picture, and replace a picture. Max 4 pictures
+   - [ ]  Description box. Max: 280 chars
+   - [ ]  Looking for tag box. tags: Petsitter/Dogwalker, Adoption, Other pets
+   - [ ]  Who are you tag box. tags: Dog, Cat, Bird, Other...
+- [X]  ToolBar and Fragments
+   - [X]  Base UI of 3 Fragment Screens (Main, Matches, Profile)
+   - [X]  Bottom toolbar to switch between fragments
+
+## Build Progress
+11/13-11/19 Progress
+
+*Input GIF here*
+
+*Input Brief Description of what was added*
+
+
+11/20-11/26
+
+*Input GIF here*
+
+*Input Brief Description of what was added*
+
