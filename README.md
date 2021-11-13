@@ -24,15 +24,15 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 
 **Required Must-have Stories**
 
-* User can register for a new account
-* User can login
-* User can upload pictures of their pets
-* User can connect with other pet owners
+[ ] User can register for a new account
+[ ] User can login
+[ ] User can upload pictures of their pets
+[ ] User can connect with other pet owners
 
 **Optional Nice-to-have Stories**
 
-* User can find a pet for adoption at a nearby animal shelter
-* User can find a petsitter easily
+[ ] User can find a pet for adoption at a nearby animal shelter
+[ ] User can find a petsitter easily
 
 
 ### 2. Screen Archetypes
