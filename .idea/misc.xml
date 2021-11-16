@@ -8,10 +8,13 @@
         <entry key="..\:/Users/jsoff/AndroidStudioProjects/Petnet/app/src/main/res/layout/fragment_messages.xml" value="0.12" />
         <entry key="..\:/Users/jsoff/AndroidStudioProjects/Petnet/app/src/main/res/layout/fragment_settings.xml" value="0.215625" />
         <entry key="..\:/Users/jsoff/AndroidStudioProjects/Petnet/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.25416666666666665" />
+<<<<<<< HEAD
         <entry key="..\:/Users/kefon/Downloads/Petnet-main/Petnet-main/app/src/main/res/layout/activity_main.xml" value="0.27760416666666665" />
         <entry key="..\:/Users/kefon/Downloads/Petnet-main/Petnet-main/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/kefon/Downloads/Petnet-main/Petnet-main/app/src/main/res/layout/fragment_messages.xml" value="0.33" />
         <entry key="..\:/Users/kefon/Downloads/Petnet-main/Petnet-main/app/src/main/res/layout/fragment_settings.xml" value="0.18" />
+=======
+>>>>>>> main
       </map>
     </option>
   </component>
