@@ -24,6 +24,17 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 
 **Required Must-have Stories**
 
+<<<<<<< HEAD
+* User can register for a new account
+* User can login
+* User can upload pictures of their pets
+* User can connect with other pet owners
+
+**Optional Nice-to-have Stories**
+
+* User can find a pet for adoption at a nearby animal shelter
+* User can find a petsitter easily
+=======
 - [ ] User can register for a new account
 - [ ] User can login
 - [ ] User can upload pictures of their pets
@@ -33,6 +44,7 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 
 - [ ] User can find a pet for adoption at a nearby animal shelter
 - [ ] User can find a petsitter easily
+>>>>>>> main
 
 
 ### 2. Screen Archetypes
@@ -77,6 +89,10 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
     * Pet Feed 
 
 ## Wireframes
+<<<<<<< HEAD
+[Add picture of your hand sketched wireframes in this section]
+=======
+>>>>>>> main
 <img src="https://github.com/Petnet-CodePath/Petnet/blob/main/Wireframe.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
@@ -85,6 +101,10 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 
 ## Schema 
 ### Models
+<<<<<<< HEAD
+[Add table of models]
+=======
+>>>>>>> main
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the user post (default field) |
@@ -111,6 +131,8 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+<<<<<<< HEAD
+=======
 
 ## User stories
 - [ ]  Main Login Screen
@@ -167,3 +189,4 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 
 *Input Brief Description of what was added*
 
+>>>>>>> main
