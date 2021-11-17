@@ -1,5 +1,6 @@
 package com.codepath.petnetcodepath.petnet.fragments;
 
+
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -12,10 +13,12 @@ import android.view.ViewGroup;
 
 import com.codepath.petnetcodepath.petnet.R;
 
+
 /**
  * A simple {@link Fragment} subclass.
  */
 public class SettingsFragment extends Fragment {
+
 
     public SettingsFragment() {
         // Required empty public constructor
@@ -31,5 +34,8 @@ public class SettingsFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
     }
+
+
 }

@@ -15,11 +15,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-<<<<<<< HEAD
-=======
     public static final String TAG = "MainActivity";
 
->>>>>>> main
     //Reference to the Bottom Navigation Tool Bar
     private BottomNavigationView bottomNavigationView;
 
