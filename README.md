@@ -24,7 +24,6 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 
 **Required Must-have Stories**
 
-<<<<<<< HEAD
 * User can register for a new account
 * User can login
 * User can upload pictures of their pets
@@ -34,18 +33,6 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 
 * User can find a pet for adoption at a nearby animal shelter
 * User can find a petsitter easily
-=======
-- [ ] User can register for a new account
-- [ ] User can login
-- [ ] User can upload pictures of their pets
-- [ ] User can connect with other pet owners
-
-**Optional Nice-to-have Stories**
-
-- [ ] User can find a pet for adoption at a nearby animal shelter
-- [ ] User can find a petsitter easily
->>>>>>> main
-
 
 ### 2. Screen Archetypes
 
@@ -89,10 +76,6 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
     * Pet Feed 
 
 ## Wireframes
-<<<<<<< HEAD
-[Add picture of your hand sketched wireframes in this section]
-=======
->>>>>>> main
 <img src="https://github.com/Petnet-CodePath/Petnet/blob/main/Wireframe.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
@@ -101,10 +84,7 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 
 ## Schema 
 ### Models
-<<<<<<< HEAD
-[Add table of models]
-=======
->>>>>>> main
+
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the user post (default field) |
@@ -131,17 +111,16 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
-<<<<<<< HEAD
-=======
+
 
 ## User stories
 - [ ]  Main Login Screen
    - [X]  Connect to Back4App
    - [X]  Create Test Profiles
    - [X]  Login Button -> Main Screen
-   - [ ]  Register Button -> Requried to Input Username and Password -> First Time Profile Set up Screen
+   - [X]  Register Button -> Requried to Input Username and Password -> First Time Profile Set up Screen
 - [ ]  Main Screen
-   - [ ]  Main Profile Screen Shows up
+   - [X]  Main Profile Screen Shows up
    - [ ]  Functionality of Check and X buttons
    - [ ]  Being able to swipe left for no, right for yes.
 - [ ]  Matches/Messaging Screen
@@ -185,15 +164,26 @@ Stretch Goals
 ## Build Progress
 11/13-11/19 Progress
 
-*Input GIF here*
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 *Input Brief Description of what was added*
 
+This week we worked on setting up the project on github and implementing the required stories for our app. Here
+is a list of what was implemented:
+- Login screen
+   - sign in to the app
+   - sign up for an profile
+- Fragments
+   - Home: with check and remove button
+   - settings: The UI for the settings fragment
+   - messages: The UI for the messaging screen
+- Logout Button
+   . In the home fragment for now but will be changed to different location when other features have been implemented
 
 11/20-11/26
 
 *Input GIF here*
 
 *Input Brief Description of what was added*
-
->>>>>>> main
