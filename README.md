@@ -144,23 +144,16 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
    - [ ]  Main Profile Screen Shows up
    - [ ]  Functionality of Check and X buttons
    - [ ]  Being able to swipe left for no, right for yes.
-   - [ ]  *Stretch* Tapping the Profile will be able to preview the whole profile layout
-   - [ ]  *Stretch* No more Matches left screen
 - [ ]  Matches/Messaging Screen
-   - [ ]  *Stretch* Functionality of Filters Buttons
-   - [ ]  *Stretch* Previewing new matches
    - [ ]  Recycler View of People you have been messaging with
 - [ ]  Profile Options Menu Screen
    - [ ]  User Profile Settings Button -> User Profile Screen
    - [ ]  Pet Profile Settings Button -> Pet Profile Screen
    - [ ]  Previewing Profile picture, as well as pet picture
-   - [ ]  *Stretch *Toggle Button Functionality for Fitlering Search Criteria
-   - [ ]  *Stretch* Being able to manually search for organizations and people for adopting pets
 - [ ]  First time Profile Set up screen
    - [ ]  Requiring For at least for:
       - [ ]  User: Must have name, 1 picture, looking for, and you are tag.
       - [ ]  *Pet is optional but to create a pet profile must have: * 1 picture, looking for, and you are tag.
-   - [ ]  *Stretch* Button being able to add more pet profiles
 - [ ]  User Profile
    - [ ]  Button to add a picture, and replace a picture. Max 4 pictures
    - [ ]  Description box. Max: 280 chars
@@ -174,6 +167,20 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 - [X]  ToolBar and Fragments
    - [X]  Base UI of 3 Fragment Screens (Main, Matches, Profile)
    - [X]  Bottom toolbar to switch between fragments
+
+Stretch Goals
+ - [ ] Main Screen
+   - [ ]  *Stretch* Tapping the Profile will be able to preview the whole profile layout
+   - [ ]  *Stretch* No more Matches left screen
+- [ ]  Matches/Messaging Screen
+   - [ ]  *Stretch* Functionality of Filters Buttons
+   - [ ]  *Stretch* Previewing new matches
+- [ ]  Profile Options Menu Screen
+   - [ ]  *Stretch *Toggle Button Functionality for Fitlering Search Criteria
+   - [ ]  *Stretch* Being able to manually search for organizations and people for adopting pets
+- [ ]  First time Profile Set up screen
+   - [ ]  *Stretch* Button being able to add more pet profiles
+
 
 ## Build Progress
 11/13-11/19 Progress
