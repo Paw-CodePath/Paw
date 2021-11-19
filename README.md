@@ -114,7 +114,7 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
 
 
 ## User stories
-- [ ]  Main Login Screen
+- [X]  Main Login Screen
    - [X]  Connect to Back4App
    - [X]  Create Test Profiles
    - [X]  Login Button -> Main Screen
