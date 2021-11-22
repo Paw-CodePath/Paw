@@ -131,18 +131,17 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
    - [ ]  Previewing Profile picture, as well as pet picture
 - [ ]  First time Profile Set up screen
    - [ ]  Requiring For at least for:
-      - [ ]  User: Must have name, 1 picture, looking for, and you are tag.
-      - [ ]  *Pet is optional but to create a pet profile must have: * 1 picture, looking for, and you are tag.
-- [ ]  User Profile
-   - [ ]  Button to add a picture, and replace a picture. Max 4 pictures
-   - [ ]  Description box. Max: 280 chars
+      - [ ]  User: Must have name, 1 picture, looking for, who are you tag.
+      - [ ]  *Pet is optional but to create a pet profile must have: * 1 picture, looking for.
+- [ ]  User Profile (Make sure this allows you to edit the user data)
+   - [ ]  1 Picture able to upload and change. Tap to edit or change the picture.
+   - [ ]  Description box.
    - [ ]  Looking for tag box. tags: Petsitter/Dogwalker, Adopting pets, Other Petowners
    - [ ]  Who are you tag box. tags: Human, Organization/Adoption Center, Other... 
-- [ ]  Pet Profile 
-   - [ ]  Button to add a picture, and replace a picture. Max 4 pictures
-   - [ ]  Description box. Max: 280 chars
+- [ ]  Pet Profile (Make sure this allows you to edit the user data)
+   - [ ]  1 Picture able to upload and change. Tap to edit or change the picture.
+   - [ ]  Description box
    - [ ]  Looking for tag box. tags: Petsitter/Dogwalker, Adoption, Other pets
-   - [ ]  Who are you tag box. tags: Dog, Cat, Bird, Other...
 - [X]  ToolBar and Fragments
    - [X]  Base UI of 3 Fragment Screens (Main, Matches, Profile)
    - [X]  Bottom toolbar to switch between fragments
@@ -157,6 +156,13 @@ Stretch Goals
 - [ ]  Profile Options Menu Screen
    - [ ]  *Stretch *Toggle Button Functionality for Fitlering Search Criteria
    - [ ]  *Stretch* Being able to manually search for organizations and people for adopting pets
+- [ ]  User Profile
+   - [ ]  *Stretch* Maximum 4 pics
+   - [ ]  *Stretch* Description box. Max: 280 chars
+- [ ]  Pet Profile 
+   - [ ]  *Stretch* Maximum 4 pics
+   - [ ]  *Stretch* Description box. Max: 280 chars
+   - [ ]  *Stretch* Who are you tag box. tags: Dog, Cat, Bird, Other...
 - [ ]  First time Profile Set up screen
    - [ ]  *Stretch* Button being able to add more pet profiles
 
