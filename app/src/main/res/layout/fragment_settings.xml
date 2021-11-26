@@ -55,7 +55,7 @@
         android:id="@+id/divider2"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_below="@+id/toggleButton2"
+        android:layout_below="@+id/tb1"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="0dp"
@@ -74,7 +74,7 @@
         android:text="Looking for..." />
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/tb1"
         android:layout_width="96dp"
         android:layout_height="82dp"
         android:layout_below="@+id/txtSettingsHeading"
@@ -92,7 +92,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="31dp"
         android:layout_marginTop="20dp"
-        android:layout_toEndOf="@+id/toggleButton2"
+        android:layout_toEndOf="@+id/tb1"
         android:checked="true"
         android:text="ToggleButton" />
 
@@ -104,7 +104,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="159dp"
         android:layout_marginTop="20dp"
-        android:layout_toEndOf="@+id/toggleButton2"
+        android:layout_toEndOf="@+id/tb1"
         android:checked="true"
         android:text="ToggleButton" />
 
