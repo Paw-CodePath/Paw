@@ -17,16 +17,32 @@
         android:hint="Enter your name!"
         android:minHeight="48dp"
         android:textSize="18sp" />
+
     <Button
-    android:id="@+id/btnCapture"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/etName"
-    android:layout_alignParentStart="true"
-    android:layout_centerHorizontal="true"
-    android:layout_marginStart="125dp"
-    android:layout_marginTop="5dp"
-    android:text="Take a picture" />
+        android:id="@+id/btnCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:text="Take a picture"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivProfile"
+        android:layout_below="@+id/etName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="55dp"
+        android:layout_toEndOf="@+id/btnCapture"
+        android:text="choose a picture"
+        android:textSize="12sp"
+        tools:layout_toEndOf="@id/btnCapture" />
 
     <ImageView
         android:id="@+id/ivProfile"
@@ -35,7 +51,6 @@
         android:layout_below="@+id/btnCapture"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ToggleButton
