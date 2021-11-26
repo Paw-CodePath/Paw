@@ -12,13 +12,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 
+import com.parse.ParseFile;
 import com.parse.ParseUser;
 
 import java.io.File;
@@ -64,9 +64,38 @@ public class ProfileSetupActivity extends AppCompatActivity {
                     Toast.makeText(ProfileSetupActivity.this, "There is no image!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                ParseUser currentUser = ParseUser.getCurrentUser();
+                updateUser();
+                goToMainActivity();
             }
         });
+    }
+
+    private void goToMainActivity() {
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void updateUser() {
+        ParseUser currentUser = ParseUser.getCurrentUser();
+        if (currentUser != null) {
+            // Other attributes than "email" will remain unchanged!
+            currentUser.put("userID", etName.getText().toString());
+            Log.i(TAG,"userID Successfully changed");
+            currentUser.put("userimg", new ParseFile(photoFile));
+            Log.i(TAG,"userimg Successfully changed");
+
+            // Saves the object.
+            currentUser.saveInBackground(e -> {
+                if(e==null){
+                    //Save successfull
+                    Toast.makeText(this, "Save Successful", Toast.LENGTH_SHORT).show();
+                }else{
+                    // Something went wrong while saving
+                    Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
     }
 
     private void launchCamera() {
