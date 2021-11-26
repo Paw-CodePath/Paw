@@ -7,6 +7,15 @@
     android:orientation="vertical"
     tools:context=".fragments.HomeFragment" >
 
+    <Button
+        android:id="@+id/btnpetprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="359dp"
+        android:text="go to pet profile" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
@@ -38,4 +47,13 @@
         android:layout_marginStart="127dp"
         android:layout_marginBottom="178dp"
         android:text="temp sign out" />
+
+    <Button
+        android:id="@+id/btnuserprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="263dp"
+        android:text="go to user profile" />
 </RelativeLayout>

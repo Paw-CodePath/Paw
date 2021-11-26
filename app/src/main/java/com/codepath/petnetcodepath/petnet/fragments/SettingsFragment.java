@@ -19,7 +19,6 @@ import com.codepath.petnetcodepath.petnet.R;
  */
 public class SettingsFragment extends Fragment {
 
-
     public SettingsFragment() {
         // Required empty public constructor
     }
@@ -35,7 +34,7 @@ public class SettingsFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-    }
 
+    }
 
 }

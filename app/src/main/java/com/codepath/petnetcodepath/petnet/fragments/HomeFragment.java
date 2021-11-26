@@ -15,7 +15,9 @@ import android.widget.Toast;
 
 import com.codepath.petnetcodepath.petnet.LoginActivity;
 import com.codepath.petnetcodepath.petnet.MainActivity;
+import com.codepath.petnetcodepath.petnet.PetProfileActivity;
 import com.codepath.petnetcodepath.petnet.R;
+import com.codepath.petnetcodepath.petnet.UserProfileActivity;
 import com.parse.ParseUser;
 
 /**
@@ -24,6 +26,8 @@ import com.parse.ParseUser;
 public class HomeFragment extends Fragment {
 
     Button btnSignout;
+    Button btnuserprofile;
+    Button btnpetprofile;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -48,10 +52,40 @@ public class HomeFragment extends Fragment {
         ParseUser currentUser = ParseUser.getCurrentUser(); // this will now be null
     }
 
+
+    private void goToUserProfileActivity() {
+        //using intent
+        Intent i = new Intent(getContext(), UserProfileActivity.class);
+        startActivity(i);
+    }
+
+    private void goToPetProfileActivity() {
+        //using intent
+        Intent i = new Intent(getContext(), PetProfileActivity.class);
+        startActivity(i);
+    }
+
+
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         btnSignout = view.findViewById(R.id.btnSignout);
+        btnuserprofile = view.findViewById(R.id.btnuserprofile);
+        btnpetprofile = view.findViewById(R.id.btnpetprofile);
+        btnuserprofile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToUserProfileActivity();
+            }
+        });
+
+        btnpetprofile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToPetProfileActivity();
+            }
+        });
+
         btnSignout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

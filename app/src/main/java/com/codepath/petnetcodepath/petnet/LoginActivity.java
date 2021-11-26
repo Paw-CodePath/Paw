@@ -135,8 +135,3 @@ public class LoginActivity extends AppCompatActivity {
         finish(); // finish the login activity once the login succeeded
     }
 }
-
-
-/*
-
- */
