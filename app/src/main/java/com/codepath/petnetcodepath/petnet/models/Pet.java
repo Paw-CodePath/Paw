@@ -1,8 +1,10 @@
 package com.codepath.petnetcodepath.petnet.models;
 
+import com.parse.FindCallback;
 import com.parse.ParseClassName;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 @ParseClassName("Pet")
@@ -14,6 +16,12 @@ public class Pet extends ParseObject {
     public static final String KEY_TYPE = "ptype";
     public static final String KEY_PREF = "ppref";
     public static final String KEY_NAME = "pname";
+
+    public static void queryPets(FindCallback<Pet> callback) {
+        ParseQuery.getQuery(Pet.class)
+                .setLimit(20)
+                .findInBackground(callback);
+    }
 
     public String getDescription() {
         return getString(KEY_DESCRIPTION);
