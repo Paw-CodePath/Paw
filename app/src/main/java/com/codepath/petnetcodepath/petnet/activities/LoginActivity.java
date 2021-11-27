@@ -8,6 +8,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.codepath.petnetcodepath.petnet.R;
@@ -63,7 +64,7 @@ public class LoginActivity extends AppCompatActivity {
                 launchActivity(MainActivity.class);
             } else {
                 Log.e(TAG, "Cannot sign in user", e);
-                Toast.makeText(this, String.format("Cannot sign you in: %s", e.getLocalizedMessage()), Toast.LENGTH_SHORT).show();
+                showAlertDialog("Cannot Sign In", e.getLocalizedMessage());
             }
         });
     }
@@ -81,7 +82,7 @@ public class LoginActivity extends AppCompatActivity {
                 launchActivity(ProfileSetupActivity.class);
             } else {
                 Log.e(TAG, "Cannot sign up user", e);
-                Toast.makeText(this, String.format("Cannot sign you up: %s", e.getLocalizedMessage()), Toast.LENGTH_SHORT).show();
+                showAlertDialog("Cannot Create Account", e.getLocalizedMessage());
             }
         });
     }
@@ -90,5 +91,16 @@ public class LoginActivity extends AppCompatActivity {
         Intent i = new Intent(this, activityClass);
         startActivity(i);
         finish(); // Finish activity so the back button doesn’t take users back here
+    }
+
+    private void showAlertDialog(String title, String message) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(title);
+        builder.setMessage(message);
+        builder.setPositiveButton("OK", (dialog, id) -> {
+            // Nothing to do here; alert closes automatically when button is tapped
+        });
+        AlertDialog alert = builder.create();
+        alert.show();
     }
 }
