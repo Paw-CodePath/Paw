@@ -84,14 +84,14 @@ public class HomeFragment extends Fragment {
             @Override
             public void onLeftCardExit(Object dataObject) {
                 Pet pet = (Pet) dataObject;
-                Toast.makeText(getActivity(), String.format("Swiped left on %s!", pet.getName()), Toast.LENGTH_SHORT);
+                Toast.makeText(getActivity(), String.format("Swiped left on %s!", pet.getName()), Toast.LENGTH_SHORT).show();
                 // TODO: Record this as a rejection.
             }
 
             @Override
             public void onRightCardExit(Object dataObject) {
                 Pet pet = (Pet) dataObject;
-                Toast.makeText(getActivity(), String.format("Swiped right on %s!", pet.getName()), Toast.LENGTH_SHORT);
+                Toast.makeText(getActivity(), String.format("Swiped right on %s!", pet.getName()), Toast.LENGTH_SHORT).show();
                 // TODO: Record this as a match.
             }
 
