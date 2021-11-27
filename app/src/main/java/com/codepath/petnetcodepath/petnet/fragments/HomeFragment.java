@@ -13,11 +13,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.codepath.petnetcodepath.petnet.LoginActivity;
-import com.codepath.petnetcodepath.petnet.MainActivity;
-import com.codepath.petnetcodepath.petnet.PetProfileActivity;
+import com.codepath.petnetcodepath.petnet.activities.LoginActivity;
+import com.codepath.petnetcodepath.petnet.activities.PetProfileActivity;
 import com.codepath.petnetcodepath.petnet.R;
-import com.codepath.petnetcodepath.petnet.UserProfileActivity;
+import com.codepath.petnetcodepath.petnet.activities.UserProfileActivity;
 import com.parse.ParseUser;
 
 /**

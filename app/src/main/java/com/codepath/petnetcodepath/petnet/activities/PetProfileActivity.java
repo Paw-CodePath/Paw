@@ -1,4 +1,4 @@
-package com.codepath.petnetcodepath.petnet;
+package com.codepath.petnetcodepath.petnet.activities;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -6,7 +6,6 @@ import android.graphics.ImageDecoder;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
@@ -18,8 +17,9 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.FileProvider;
 
+import com.codepath.petnetcodepath.petnet.R;
+import com.codepath.petnetcodepath.petnet.models.Pet;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;
@@ -32,6 +32,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class PetProfileActivity extends AppCompatActivity {
+    
     private static final String TAG = "PetProfileActivity";
     public final static int PICK_PHOTO_CODE = 1046;
 
@@ -46,6 +47,7 @@ public class PetProfileActivity extends AppCompatActivity {
     EditText etPetPref;
     EditText etPetName;
     EditText etPetType;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -79,13 +81,12 @@ public class PetProfileActivity extends AppCompatActivity {
                 String type = etPetType.getText().toString();
                 String pref = etPetPref.getText().toString();
 
-                if(description.isEmpty()){
+                if (description.isEmpty()) {
                     Toast.makeText(PetProfileActivity.this, "Description cannot be empty!", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
-                if(photoFile == null || ivPetImage.getDrawable() == null)
-                {
+                if (photoFile == null || ivPetImage.getDrawable() == null) {
                     Toast.makeText(PetProfileActivity.this, "There is no Image!", Toast.LENGTH_SHORT).show();
                 }
 
@@ -115,7 +116,7 @@ public class PetProfileActivity extends AppCompatActivity {
         Bitmap image = null;
         try {
             // check version of Android on device
-            if(Build.VERSION.SDK_INT > 27){
+            if (Build.VERSION.SDK_INT > 27) {
                 // on newer versions of Android, use the new decodeBitmap method
                 ImageDecoder.Source source = ImageDecoder.createSource(this.getContentResolver(), photoUri);
                 image = ImageDecoder.decodeBitmap(source);
@@ -154,7 +155,7 @@ public class PetProfileActivity extends AppCompatActivity {
         pet.saveInBackground(new SaveCallback() {
             @Override
             public void done(ParseException e) {
-                if(e!= null){
+                if (e != null) {
                     Log.e(TAG, "Error while Saving", e);
                     Toast.makeText(PetProfileActivity.this, "Error while saving!", Toast.LENGTH_SHORT).show();
                     return;
@@ -170,13 +171,12 @@ public class PetProfileActivity extends AppCompatActivity {
             @Override
             public void done(List<Pet> pets, ParseException e) {
 
-                if(e != null)
-                {
+                if (e != null) {
                     Log.e(TAG, "Issue with getting user", e);
                     return;
                 }
 
-                for(Pet pet : pets) {
+                for (Pet pet : pets) {
                     Log.i(TAG, "Pet: " + pet.getDescription());
                 }
             }

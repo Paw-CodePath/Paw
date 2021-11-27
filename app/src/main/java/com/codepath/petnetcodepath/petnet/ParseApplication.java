@@ -2,6 +2,7 @@ package com.codepath.petnetcodepath.petnet;
 
 import android.app.Application;
 
+import com.codepath.petnetcodepath.petnet.models.Pet;
 import com.parse.Parse;
 import com.parse.ParseObject;
 

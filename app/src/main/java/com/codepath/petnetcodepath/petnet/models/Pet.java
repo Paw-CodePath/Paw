@@ -1,4 +1,4 @@
-package com.codepath.petnetcodepath.petnet;
+package com.codepath.petnetcodepath.petnet.models;
 
 import com.parse.ParseClassName;
 import com.parse.ParseFile;
@@ -16,10 +16,9 @@ public class Pet extends ParseObject {
     public static final String KEY_NAME = "pname";
 
     public String getDescription() {
-        return  getString(KEY_DESCRIPTION);
+        return getString(KEY_DESCRIPTION);
     }
 
-    //set method for the description
     public void setDescription(String description) {
         put(KEY_DESCRIPTION, description);
     }
@@ -28,42 +27,39 @@ public class Pet extends ParseObject {
         return getString(KEY_TYPE);
     }
 
-    public void setType(String type){
+    public void setType(String type) {
         put(KEY_TYPE, type);
     }
 
-    public String getName(){
+    public String getName() {
         return getString(KEY_NAME);
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         put(KEY_NAME, name);
     }
 
-    public String getPref(){
+    public String getPref() {
         return getString(KEY_PREF);
     }
 
-    public void setPref(String pref){
+    public void setPref(String pref) {
         put(KEY_PREF, pref);
     }
 
-    public ParseFile getImage(){
+    public ParseFile getImage() {
         return getParseFile(KEY_IMAGE);
     }
 
-    //set image
     public void setImage(ParseFile parseFile) {
         put(KEY_IMAGE, parseFile);
     }
 
-    // get the image
-    public ParseUser getUser(){
+    public ParseUser getUser() {
         return getParseUser(KEY_USER);
     }
 
-    public void setUser(ParseUser user){
+    public void setUser(ParseUser user) {
         put(KEY_USER, user);
     }
-
 }

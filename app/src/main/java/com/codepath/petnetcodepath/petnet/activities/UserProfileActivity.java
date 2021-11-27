@@ -1,4 +1,4 @@
-package com.codepath.petnetcodepath.petnet;
+package com.codepath.petnetcodepath.petnet.activities;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +12,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.codepath.petnetcodepath.petnet.R;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseQuery;
@@ -46,7 +47,7 @@ public class UserProfileActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String description = etUserDescription.getText().toString();
-                if(description.isEmpty()){
+                if (description.isEmpty()) {
                     Toast.makeText(UserProfileActivity.this, "Description cannot be empty!", Toast.LENGTH_SHORT).show();
                     return;
                 }
@@ -66,13 +67,12 @@ public class UserProfileActivity extends AppCompatActivity {
         query.findInBackground(new FindCallback<ParseUser>() {
             @Override
             public void done(List<ParseUser> users, ParseException e) {
-                if(e != null)
-                {
+                if (e != null) {
                     Log.e(TAG, "Issue with getting user", e);
                     return;
                 }
 
-                for(ParseUser user : users) {
+                for (ParseUser user : users) {
                     Log.i(TAG, "User: " + user.getUsername() + "Desc: " + user.get("userdesc"));
                 }
             }

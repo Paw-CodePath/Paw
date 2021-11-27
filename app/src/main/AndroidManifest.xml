@@ -28,7 +28,7 @@
         </provider>
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".activities.LoginActivity"
             android:exported="true">
             <meta-data
                 android:name="com.parse.SERVER_URL"
@@ -47,16 +47,16 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.MainActivity">
         </activity>
 
-        <activity android:name=".ProfileSetupActivity">
+        <activity android:name=".activities.ProfileSetupActivity">
         </activity>
 
-        <activity android:name=".UserProfileActivity">
+        <activity android:name=".activities.UserProfileActivity">
         </activity>
 
-        <activity android:name=".PetProfileActivity">
+        <activity android:name=".activities.PetProfileActivity">
         </activity>
     </application>
 

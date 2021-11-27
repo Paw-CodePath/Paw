@@ -1,4 +1,4 @@
-package com.codepath.petnetcodepath.petnet;
+package com.codepath.petnetcodepath.petnet.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
