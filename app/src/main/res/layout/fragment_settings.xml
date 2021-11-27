@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fragments.HomeFragment" >
+    tools:context=".fragments.HomeFragment">
 
     <ImageView
         android:id="@+id/ivUserPicture"
@@ -35,15 +34,25 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnUserProfile"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="30dp"
         android:text="Edit Pet Profile" />
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPetProfile"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:text="Sign Out" />
 
     <View
         android:id="@+id/divider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_below="@+id/btnPetProfile"
+        android:layout_below="@+id/btnSignOut"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="0dp"
