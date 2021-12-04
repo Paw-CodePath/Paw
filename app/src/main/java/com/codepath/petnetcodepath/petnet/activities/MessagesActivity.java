@@ -9,6 +9,7 @@ import com.codepath.petnetcodepath.petnet.models.Match;
 import com.codepath.petnetcodepath.petnet.models.Message;
 import com.codepath.petnetcodepath.petnet.models.utilities.ListObserver;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -24,6 +25,7 @@ public class MessagesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_messages);
 
+        allMessages = new ArrayList<>();
         match = (Match) getIntent().getSerializableExtra(KEY_MATCH);
 
         Message.findAllFromUser(match.getOther(), new ListObserver<Message>() {

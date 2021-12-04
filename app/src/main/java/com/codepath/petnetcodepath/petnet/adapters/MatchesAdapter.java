@@ -50,17 +50,17 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        RelativeLayout rvMatches;
+        RelativeLayout rlContainer;
         TextView tvName;
         TextView tvLastText;
         ImageView ivImage;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            rlContainer = itemView.findViewById(R.id.item_match);
             tvName = itemView.findViewById(R.id.tv_name);
             tvLastText = itemView.findViewById(R.id.tv_last_text);
             ivImage = itemView.findViewById(R.id.iv_image);
-            rvMatches = itemView.findViewById(R.id.rv_matches);
         }
 
         public void bind(Match match) {
@@ -69,8 +69,7 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
             // TODO: Set the last text here.
             Glide.with(context).load(other.getImageUrl()).into(ivImage);
 
-            /**
-            rvMatches.setOnClickListener(new View.OnClickListener() {
+            rlContainer.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     Intent i = new Intent(context, MessagesActivity.class);
@@ -78,7 +77,6 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
                     context.startActivity(i);
                 }
             });
-             */
         }
     }
 
