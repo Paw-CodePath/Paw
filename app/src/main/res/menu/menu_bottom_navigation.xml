@@ -5,7 +5,7 @@
     <item
         android:id="@+id/action_settings"
         android:icon="@drawable/ic_baseline_settings_24"
-        android:title="settings"
+        android:title="Settings"
         app:showAsAction="always" />
     <item
         android:id="@+id/action_home"
@@ -13,8 +13,8 @@
         android:title="Home"
         app:showAsAction="always" />
     <item
-        android:id="@+id/action_messages"
+        android:id="@+id/action_matches"
         android:icon="@drawable/ic_baseline_message_24"
-        android:title="Messages"
+        android:title="Matches"
         app:showAsAction="always" />
 </menu>

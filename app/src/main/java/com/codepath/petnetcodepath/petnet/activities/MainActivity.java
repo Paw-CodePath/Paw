@@ -8,7 +8,7 @@ import androidx.fragment.app.FragmentManager;
 
 import com.codepath.petnetcodepath.petnet.R;
 import com.codepath.petnetcodepath.petnet.fragments.HomeFragment;
-import com.codepath.petnetcodepath.petnet.fragments.MessagesFragment;
+import com.codepath.petnetcodepath.petnet.fragments.MatchesFragment;
 import com.codepath.petnetcodepath.petnet.fragments.SettingsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.action_home:
                     fragment = new HomeFragment();
                     break;
-                case R.id.action_messages:
-                    fragment = new MessagesFragment();
+                case R.id.action_matches:
+                    fragment = new MatchesFragment();
                     break;
                 case R.id.action_settings:
                     fragment = new SettingsFragment();
