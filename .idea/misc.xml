@@ -20,6 +20,17 @@
         <entry key="..\:/Users/jsoff/AndroidStudioProjects/Petnet/app/src/main/res/layout/fragment_messages.xml" value="0.12" />
         <entry key="..\:/Users/jsoff/AndroidStudioProjects/Petnet/app/src/main/res/layout/fragment_settings.xml" value="0.264" />
         <entry key="..\:/Users/jsoff/AndroidStudioProjects/Petnet/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/activity_messages.xml" value="0.25" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/activity_pet_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/activity_user_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/fragment_matches.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/fragment_messages.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/fragment_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/item_chat.xml" value="0.25" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/item_match.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kefon/Downloads/Petnet-master/Petnet-master/app/src/main/res/layout/item_pet.xml" value="0.36666666666666664" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_pet_profile.xml" value="0.196875" />
         <entry key="app/src/main/res/layout/activity_petprofile.xml" value="0.19739583333333333" />
@@ -33,7 +44,6 @@
         <entry key="app/src/main/res/layout/item_match.xml" value="0.19114583333333332" />
         <entry key="app/src/main/res/layout/item_pet.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/matches_messages.xml" value="0.19739583333333333" />
-        <entry key="app/src/main/res/menu/menu_bottom_navigation.xml" value="0.18020833333333333" />
       </map>
     </option>
   </component>
