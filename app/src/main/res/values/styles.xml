@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SalmonPink" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">#ff6666</item>
+    </style>
+
+</resources>

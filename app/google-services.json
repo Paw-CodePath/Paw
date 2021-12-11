@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "102615126309",
+    "project_id": "paw-codepath",
+    "storage_bucket": "paw-codepath.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102615126309:android:f97c7dbc66ded630bfcacc",
+        "android_client_info": {
+          "package_name": "com.paw.pawapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102615126309-1lbq86efb1qkgpqhraocjc9732fvpjtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs7jKcCYI5mZ78sPjzoe9EDSw2x7kXMVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102615126309-1lbq86efb1qkgpqhraocjc9732fvpjtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
