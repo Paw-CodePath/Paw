@@ -223,4 +223,13 @@ This Week's work:
   - Now also able to add your own pets into the list of pets available to swipe for
   - More Updates to current UI
 
+12/3 - 12/11
+<<img src='https://media.giphy.com/media/YToXAFQ0PORTuPpGae/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+This Week's work:
+- Improvements to UI (color changes, object placement changes, theme changes, etc.)
+- Messages was properly implemented (including Time, username, and text into Recycler view)
+- Adding more test users
+- Renamed the file from PetNet to PAW
+
 *Input Brief Description of what was added*
