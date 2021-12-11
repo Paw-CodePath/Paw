@@ -123,8 +123,8 @@ This app is dedicated to showcase your pets, connect you to pets up for adoption
    - [X]  Main Profile Screen Shows up
    - [X]  Functionality of Check and X buttons
    - [X]  Being able to swipe left for no, right for yes.
-- [ ]  Matches/Messaging Screen
-   - [ ]  Recycler View of People you have been messaging with
+- [X]  Matches/Messaging Screen
+   - [X]  Recycler View of People you have been messaging with
 - [X]  Profile Options Menu Screen
    - [X]  User Profile Settings Button -> User Profile Screen
    - [X]  Pet Profile Settings Button -> Pet Profile Screen
